@@ -21,15 +21,15 @@
 .header {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 470px 300px 330px;
+  grid-template-columns: 470px 300px 329px;
   align-items: center;
   justify-content: center;
   justify-items: center;
-  padding: 92px 0px 91px 0;
+  padding: 92px 0px 90px 0;
 }
 
 .header__menu {
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
 }
 
 ul > li:first-child {
@@ -65,19 +65,19 @@ ul > li:first-child {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  margin-left: 29px;
+  margin: 3px 22px 0px 0px;
 }
 
 .header__logo img {
   width: 147px;
   height: 105px;
-  margin-top: 8px;
-  margin-right: 89px;
+  margin-top: 9px;
+  margin-right: 139px;
   position: relative;
   bottom: 0.6px;
 }
 
-address {
+.header__address {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -86,8 +86,7 @@ address {
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
-  letter-spacing: 0%;
-  margin-right: 62px;
+  margin-right: 87px;
   text-underline-offset: 3px;
   text-decoration-skip-ink: none;
   position: relative;
@@ -109,9 +108,10 @@ address {
   background-image: url(/Users/sooer/dev/ono-tebe-nado-fd/images/cover.jpg);
   background-size: cover;
   background-position: center;
-  min-width: 1100px;
+  max-width: 1100px;
   height: 757px;
   position: relative;
+  border: none;
 }
 
 h1 {
@@ -127,7 +127,7 @@ h1 {
 .aligned-text_left {
   display: flex;
   justify-content: flex-start;
-  margin: 165px 764px 17px 50px;
+  margin: 165px 764px 18px 50px;
 }
 
 .aligned-text_center {
@@ -139,7 +139,7 @@ h1 {
 .aligned-text_right {
   display: flex;
   justify-content: flex-end;
-  margin: 0px 20px 97px 616px;
+  margin: 0px 19px 97px 616px;
 }
 
 .e {
@@ -209,15 +209,14 @@ h1 {
 
 .lots__card-lis {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 колонки равной ширины */
-  gap: 25px; /* Пространство между элементами */
-  margin-top: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 31px 24px 0 24px;
   position: relative;
-  bottom: -0.4px;
 }
 
 .lots__card-list-item {
-  list-style-type: none; /* Убираем маркеры списков */
+  list-style-type: none;
 }
 
 .card_type_film,
@@ -226,9 +225,10 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   background-color: #fff;
-  /* box-sizing: border-box; */
   height: 596px;
-  width: 334px;
+  background-size: cover;
+  background-position: center;
+  /* width: 100%; */
   opacity: 1;
   position: relative;
 }
@@ -236,9 +236,6 @@ h1 {
 .card_type_film {
   grid-column: 1; /* Расположить карточку в первой колонке */
   background-image: url("/Users/sooer/dev/ono-tebe-nado-fd/images/card-lot-01.jpg");
-  background-size: cover;
-  background-position: center;
-  margin-left: 24px;
 }
 
 .card_type_book {
@@ -253,7 +250,6 @@ h1 {
   background-image: url("/Users/sooer/dev/ono-tebe-nado-fd/images/card-lot-03.jpg");
   background-size: cover;
   background-position: center;
-  margin-right: 24px;
 }
 
 .lots__look-more-link {
@@ -314,7 +310,7 @@ h1 {
   margin-bottom: -110px;
   padding-top: 48px;
   padding-left: 40px;
-  padding-right: 13px;
+  padding-right: 14px;
   overflow-wrap: break-word;
   text-underline-offset: 2px;
 }
@@ -352,7 +348,7 @@ h1 {
   height: 240px;
   border-radius: 50%;
   margin: 106px 46px 46px 47px;
-  padding: 46px 46px 37px 47px;
+  padding: 44px 46px 37px 47px;
 }
 
 .about__title {
@@ -396,8 +392,20 @@ h1 {
 }
 
 .address_footer {
-  text-underline-offset: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: end;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  text-decoration-skip-ink: none;
+  position: relative;
   margin-left: 50px;
+  left: 0.5px;
+  top: 1.5px;
+  text-underline-offset: 4px;
 }
 
 .footer_menu {
