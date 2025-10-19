@@ -19,6 +19,7 @@
 }
 
 .header {
+  margin-top: -6px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 470px 300px 329px;
