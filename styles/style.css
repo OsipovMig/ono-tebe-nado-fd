@@ -311,12 +311,12 @@ h1 {
   line-height: 24px;
 }
 
-.about__text_one {
+.about__text_question {
   margin: 102px 4px 0 25px;
   padding-top: 1px;
 }
 
-.about__text_two {
+.about__text_statement {
   margin: 24px 3px 0 25px;
   overflow-wrap: break-word;
 }
