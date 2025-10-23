@@ -80,9 +80,12 @@ ul > li:first-child {
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
-  margin: 0 0 4px 104px;
   text-underline-offset: 3px;
   text-decoration-skip-ink: none;
+  max-width: 240px;
+}
+.header__address {
+  margin: 0 0 4px 104px;
 }
 
 .cover {
@@ -138,7 +141,7 @@ h1 {
   word-spacing: 18.5px;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  margin: 19px 0px 42px 49px;
+  margin: 20px 0px 42px 49px;
 }
 
 .bet-button {
@@ -171,7 +174,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  margin: 30px 24px 0 24px;
+  margin: 31px 24px 0 24px;
 }
 
 .lots__card-list-item {
@@ -259,7 +262,7 @@ h1 {
 }
 
 .card__text_book {
-  padding: 0 43px 15px 40px;
+  padding: 0 43px 14px 40px;
 }
 
 .card__title_picture {
@@ -326,7 +329,7 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.address_footer {
+.footer__address {
   margin: 0 0 82px 50px;
 }
 
@@ -346,7 +349,7 @@ h1 {
 }
 
 .footer_links-list-item-center {
-  margin-top: 3px;
+  margin-top: 4px;
 }
 
 .footer_links-list-item-bottom {
