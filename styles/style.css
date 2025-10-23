@@ -30,7 +30,7 @@
   text-underline-offset: 3px;
 }
 
-.header__menu:hover {
+.header__link:hover {
   text-decoration: none;
 }
 
@@ -336,7 +336,7 @@ h1 {
   font-size: 18px;
   line-height: 24.3px;
   text-decoration-skip-ink: none;
-  margin-left: 50px;
+  margin: 0 0 82px 50px;
   text-underline-offset: 4px;
 }
 
@@ -349,6 +349,10 @@ h1 {
   list-style: none;
   text-underline-offset: 4px;
   margin-top: 1px;
+}
+
+.footer_menu:hover {
+  text-decoration: none;
 }
 
 .footer_links-list-item-center {
