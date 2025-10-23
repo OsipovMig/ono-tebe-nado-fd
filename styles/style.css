@@ -6,6 +6,7 @@
 
 .overlay {
   position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
@@ -17,9 +18,9 @@
 }
 
 .header {
-  margin-top: 10px;
+  margin-top: 17px;
   display: grid;
-  grid-template-columns: 470px 300px 329px;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   justify-content: center;
   justify-items: center;
@@ -27,7 +28,7 @@
 }
 
 .header__menu {
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
 }
 
 .header__link:hover {
@@ -62,25 +63,24 @@ ul > li:first-child {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  margin: 3px 22px 0px 0px;
+  margin: 0px 26px 7px 0px;
 }
 
 .header__logo img {
   width: 147px;
   height: 105px;
-  margin: 9px 139px 0 0;
 }
 
 .address {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-self: end;
+  justify-content: center;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
-  margin: 4px 87px 0 0;
+  margin: 0 0 4px 104px;
   text-underline-offset: 3px;
   text-decoration-skip-ink: none;
 }
@@ -327,17 +327,7 @@ h1 {
 }
 
 .address_footer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-self: end;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24.3px;
-  text-decoration-skip-ink: none;
   margin: 0 0 82px 50px;
-  text-underline-offset: 4px;
 }
 
 .footer_menu {
